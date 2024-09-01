@@ -6,8 +6,15 @@ project.lock.json
 .DS_Store
 *.pyc
 
-# Visual Studio Code
-.vscode
+#################
+## Rider
+#################
+.idea
+
+#################
+## VS Code
+#################
+.vscode/
 
 # User-specific files
 *.suo
