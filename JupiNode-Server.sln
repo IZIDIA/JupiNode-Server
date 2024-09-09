@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JupiNode-Server", "JupiNode-Server\JupiNode-Server.csproj", "{04AE10B0-3E2A-4536-95A8-C25CF1D4FCD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JupiNode.Core", "JupiNode.Core\JupiNode.Core.csproj", "{56A244AA-6B2F-4054-8A5D-FCC55E7E2B20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JupiNode.DataAccess", "JupiNode.DataAccess\JupiNode.DataAccess.csproj", "{18651878-6D13-41FA-B981-46EB4E862FA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{04AE10B0-3E2A-4536-95A8-C25CF1D4FCD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04AE10B0-3E2A-4536-95A8-C25CF1D4FCD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04AE10B0-3E2A-4536-95A8-C25CF1D4FCD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56A244AA-6B2F-4054-8A5D-FCC55E7E2B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56A244AA-6B2F-4054-8A5D-FCC55E7E2B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56A244AA-6B2F-4054-8A5D-FCC55E7E2B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56A244AA-6B2F-4054-8A5D-FCC55E7E2B20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18651878-6D13-41FA-B981-46EB4E862FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18651878-6D13-41FA-B981-46EB4E862FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18651878-6D13-41FA-B981-46EB4E862FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18651878-6D13-41FA-B981-46EB4E862FA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
