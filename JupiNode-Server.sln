@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JupiNode.Core", "JupiNode.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JupiNode.DataAccess", "JupiNode.DataAccess\JupiNode.DataAccess.csproj", "{18651878-6D13-41FA-B981-46EB4E862FA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JupiNode.Application", "JupiNode.Application\JupiNode.Application.csproj", "{F511A6D3-0EBF-4608-BB66-21BC69440042}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{18651878-6D13-41FA-B981-46EB4E862FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18651878-6D13-41FA-B981-46EB4E862FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18651878-6D13-41FA-B981-46EB4E862FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F511A6D3-0EBF-4608-BB66-21BC69440042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F511A6D3-0EBF-4608-BB66-21BC69440042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F511A6D3-0EBF-4608-BB66-21BC69440042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F511A6D3-0EBF-4608-BB66-21BC69440042}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

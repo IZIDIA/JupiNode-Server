@@ -1,11 +1,21 @@
+using JupiNode.Application.Services;
+using JupiNode.Core.Abstractions;
+using JupiNode.DataAccess;
+using JupiNode.DataAccess.Repositories;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDbContext<JupiNodeDbContext>(options => { options.UseNpgsql(builder.Configuration.GetConnectionString(nameof(JupiNodeDbContext))); });
+
+builder.Services.AddScoped<INotesService, NotesService>();
+builder.Services.AddScoped<INotesRepository, NotesRepository>();
 
 var app = builder.Build();
 

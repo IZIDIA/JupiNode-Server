@@ -23,17 +23,17 @@ public interface INotesRepository
     /// <summary>
     /// Обновить объект
     /// </summary>
-    /// <param name="id"></param>
-    /// <param name="createdAt"></param>
-    /// <param name="title"></param>
-    /// <param name="content"></param>
-    /// <returns></returns>
+    /// <param name="id"> Идентификатор </param>
+    /// <param name="createdAt"> Дата создания </param>
+    /// <param name="title"> Заголовок </param>
+    /// <param name="content"> Содержимое </param>
+    /// <returns> Идентификатор </returns>
     Task<Guid> Update(Guid id, DateTime createdAt, string title, string content);
 
     /// <summary>
     /// Удалить
     /// </summary>
-    /// <param name="id"></param>
-    /// <returns></returns>
+    /// <param name="id"> Идентификатор </param>
+    /// <returns> Идентификатор </returns>
     Task<Guid> Delete(Guid id);
 }

@@ -66,7 +66,7 @@ public class Note
 
         // TODO: Валидация (ValidationAttribute)
 
-        if (error.Count == 0)
+        if (error.Count != 0)
         {
             return (null, error);
         }
